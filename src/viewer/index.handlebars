@@ -322,7 +322,7 @@
             {{#each this.ext.cp.policies}}
               <div class="panel-list-item">
                 <div class="text">Policy {{onebasedindex @index}}</div>
-                <div class="text">{{#if this.name}}{{ this.name }} ( {{ this.id }} ){{else}}{{ this.id }}{{/if}}</div>
+                <div class="text">{{#if this.name}}{{ this.name }} ({{ this.id }}){{else}}{{ this.id }}{{/if}}</div>
               </div>
               {{#if this.value}}
                 <div class="panel-list-item">
@@ -337,7 +337,7 @@
                 {{#each this.qualifiers}}
                   <div class="panel-list-item">
                     <div class="text">Qualifier {{onebasedindex @index}}</div>
-                    <div class="text">{{#if this.name}}{{ this.name }} ( {{ this.id }} ){{else}}{{ this.id }}{{/if}}</div>
+                    <div class="text">{{#if this.name}}{{ this.name }} ({{ this.id }}){{else}}{{ this.id }}{{/if}}</div>
                   </div>
                   {{#if this.value}}
                     <div class="panel-list-item">
